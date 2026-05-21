@@ -1,0 +1,11 @@
+__pycache__/
+profiling_input/
+profiling_output/
+profiling_input_zip.zip
+
+# Ignora i file pesanti o sensibili dentro dataset lasciando salvo il notebook
+dataset/*.csv
+dataset/*.json
+
+# Ignora il file csv dentro secondo_classificatore
+secondo_classificatore/linguistic_profiling.csv
